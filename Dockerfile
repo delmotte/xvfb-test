@@ -1,6 +1,5 @@
 FROM atlassianlabs/docker-node-jdk-chrome-firefox
 
-# Install node + selenium
 RUN npm install -g nightwatch webdriver-manager \
     && webdriver-manager update --versions.standalone=2.53.0
 
